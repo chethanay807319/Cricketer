@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chethan AY - Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: #4da6ff;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 18px;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            padding: 25px;
+            background-color: #f1f5fb;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #2a5298;
+            margin-bottom: 10px;
+        }
+
+        .cricket {
+            text-align: center;
+        }
+
+        .cricket-icon {
+            font-size: 70px;
+            margin: 15px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 8px 0;
+            font-size: 17px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            section {
+                margin: 20px 10px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Chethan AY</h1>
+        <p>Engineering Student | Cricket Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is <strong>Chethan AY</strong>.
+            I am an engineering student who is interested in learning
+            new technologies and developing my skills.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="details">
+            <div class="card">
+                <h3>College</h3>
+                <p>JAIN Institute of Technology</p>
+                <p>Davanagere</p>
+            </div>
+
+            <div class="card">
+                <h3>Course</h3>
+                <p>Bachelor of Engineering</p>
+                <p>Engineering Student</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="cricket">
+        <h2>My Hobby</h2>
+
+        <div class="cricket-icon">🏏</div>
+
+        <h3>Cricket</h3>
+
+        <p>
+            I enjoy playing cricket in my free time.
+            Cricket helps me stay active, focused and disciplined.
+        </p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <p><strong>Name:</strong> Chethan AY</p>
+        <p><strong>College:</strong> JAIN Institute of Technology, Davanagere</p>
+        <p><strong>Interest:</strong> Cricket & Technology</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Chethan AY. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
